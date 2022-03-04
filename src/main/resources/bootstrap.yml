@@ -1,0 +1,11 @@
+server:
+  port: 9000
+
+spring:
+  application:
+    name: blog-user
+  cloud:
+    config:
+      uri: http://localhost:10000
+    
+    
